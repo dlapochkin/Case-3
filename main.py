@@ -13,5 +13,4 @@ for year in range(1, s + 1):
         k = cp + 1000
         sm = k * (p / 100)
         cp = k + sm
-        print('|\t', m, '\t|\t', format(k, '15.,2f'), '\t|\t', format(sm, '15.,2f'), '\t|\t', format(cp, '15.,2f'),
-              '\t|')
+        print('|\t', format(m,'2.0f'), '\t|\t', format(k, '10.2f'), '\t|\t', format(sm, '10.2f'), '\t|\t', format(cp, '10.2f'),'\t|')
