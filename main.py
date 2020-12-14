@@ -20,4 +20,4 @@ for year in range(1, s + 1):
             k = cp + 1000
             sm = k * (p / 100)
             cp = k + sm
-            print('|     ', m, '     |', '%.2f' % k, '%.2f' % sm, '%.2f' % cp)
+            print('|    ', m, '     |', '%.2f' % k, '%.2f' % sm, '%.2f' % cp)
