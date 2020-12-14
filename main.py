@@ -1,5 +1,5 @@
 # Case-study #3 - Investment report
-# Developers:   Lapochkin D. (4final%),
+# Developers:   Lapochkin D. (40%),
 #               Kuznetsov A. (33%),
 #               Krivoshapova D. (35%)
 
