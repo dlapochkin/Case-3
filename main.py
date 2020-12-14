@@ -13,5 +13,5 @@ for p in range(1, 13):
     k = k + a + sm
     sm = k * p * 0.01
     kp = k + sm
-    print( p, k, sm, kp)
+    print(p, round(k, 2), round(sm, 2),round(kp, 2))
 
