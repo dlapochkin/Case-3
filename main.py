@@ -6,8 +6,8 @@ cp = k - 1000
 for year in range(1, s + 1):
     print(year, 'год')
     print('-' * 73)
-    print('|\t     \t|\t      основа\t|\t     сумма%  \t|\t               \t|')
-    print('|\tмесяц\t|\t   инвестиций\t|\t    за месяц\t|\t    капитал  \t|')
+    print('|\t',''.ljust(5),'\t|\t','основа'.ljust(10),'\t|\t','сумма%'.ljust(10),'\t|\t',''.ljust(10),'\t|')
+    print('|\t','месяц','\t|\t','инвестиций'.ljust(10),'\t|\t','за месяц'.ljust(10),'\t|\t','капитал'.ljust(10),'\t|')
     print('-' * 73)
     for m in range(1, 13):
         k = cp + 1000
