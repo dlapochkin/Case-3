@@ -1,3 +1,8 @@
+"""Case-study #3 Investment report
+Developers:
+Lapochkin D. ( %), Kuznetsov A.( %),Krivoshapova D.( %)
+
+"""
 s = int(input('Срок размещения капитала (лет):'))
 k = int(input('Начальный капитал ($):'))
 p = int(input('Процентная ставка (%/мес.):'))
