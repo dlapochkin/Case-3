@@ -10,8 +10,8 @@ print('|\t     \t|\t  основа  \t|\t сумма% \t|\t       \t|')
 print('|\tмесяц\t|\tинвестиций\t|\tза месяц\t|\tкапитал\t|')
 print('-'*57)
 for p in range(1, 13):
-    k = k + a + sm
+    k = cp + 1000
     sm = k * p * 0.01
-    kp = k + sm
+    cp = k + sm
     print(p, round(k, 2), round(sm, 2),round(kp, 2))
 
