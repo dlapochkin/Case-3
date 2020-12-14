@@ -1,6 +1,6 @@
 """Case-study #3 Investment report
 Developers:
-Lapochkin D. ( %), Kuznetsov A.( %),Krivoshapova D.( %)
+Lapochkin D. ( %), Kuznetsov A.(33%),Krivoshapova D.( %)
 
 """
 s = int(input('Срок размещения капитала (лет):'))
