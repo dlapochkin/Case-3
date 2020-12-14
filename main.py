@@ -5,13 +5,13 @@ a = int(input('Инвестиционные вливания ($/мес.):'))
 cp = k - 1000
 for year in range(1, s + 1):
     print(year, 'год')
-    print('-' * 57)
-    print('|\t     \t|\t  основа  \t|\t сумма% \t|\t       \t|')
-    print('|\tмесяц\t|\tинвестиций\t|\tза месяц\t|\tкапитал\t|')
-    print('-' * 57)
+    print('-' * 73)
+    print('|\t     \t|\t      основа\t|\t     сумма%  \t|\t               \t|')
+    print('|\tмесяц\t|\t   инвестиций\t|\t    за месяц\t|\t    капитал  \t|')
+    print('-' * 73)
     for m in range(1, 13):
         k = cp + 1000
         sm = k * (p / 100)
         cp = k + sm
-        print('|\t', round(m), '\t|\t', round(k,2), '\t|\t', round(sm,2), '\t|\t', round(cp,2),'\t|')
+        print('|\t', format(m,'2.0f'), '\t|\t', format(k, '10.2f'), '\t|\t', format(sm, '10.2f'), '\t|\t', format(cp, '10.2f'),'\t|')
     print()
